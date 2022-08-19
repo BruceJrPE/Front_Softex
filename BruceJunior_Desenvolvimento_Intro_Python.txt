@@ -1,0 +1,12 @@
+Nome_Aluno = input("Insira o nome do aluno: ")
+Nota1 = float(input("Qual foi a 1ª nota? "))
+Nota2 = float(input("Qaul foi a 2ª nota? "))
+Faltas = int(input("Quantas faltas durante o semestre? "))
+Med_notas = (Nota1+Nota2)/2
+
+if Med_notas < 7:
+    print("O aluno", Nome_Aluno, "foi reprovado")
+elif Faltas > 3:
+    print("O aluno", Nome_Aluno, "foi reprovado")
+else:
+    print("O aluno", Nome_Aluno, "foi aprovado")
