@@ -1,0 +1,14 @@
+roda = int(input("Quantas rodas o veículo possui? "))
+peso = float(input("Qual o peso do veículo? "))
+pessoas = int(input("Quantas pessoas o veículo suporta? "))
+
+if roda <= 3:
+    print("Categoria A")
+elif roda == 4 and pessoas <= 8 and peso <= 3500:
+    print("Categoria B")
+elif roda >= 4 and peso > 3500 and peso <= 6000:
+    print("Categoria C")
+elif roda >= 4 and pessoas > 8:
+    print("Categoria D")
+elif roda >= 4 and peso > 6000: 
+    print("Categoria E")
