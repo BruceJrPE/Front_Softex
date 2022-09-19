@@ -1,0 +1,44 @@
+Objetos materiais:
+
+Classe Console de video-game
+Atributos: 
+       Modelo: Caractere
+       Armazenamento: Real
+       Preço: Real
+Métodos:
+       Ligar()
+       Atualizar()
+       ReproduzirJogos()
+       
+Classe Caneta
+Atributos:
+        Fabricante: Caractere
+        Cor: Caractere
+        Tamanho: Real
+Métodos:
+        Riscar()
+        Desenhar()
+        Escrever()
+        
+Objetos abstratos:
+
+Classe Amigo
+Atributos:
+        Nome: Caractere
+        Telefone: Inteiro
+        Idade: Inteiro
+Métodos:
+        Conversar()
+        Ajudar()
+        Brincar()
+        
+Classe Filme
+Atributos:
+        Gênero: Caractere
+        Duração: Real
+        Título: Caractere
+Métodos:
+        Distrair()
+        Comunicar()
+        Informar()
+       
