@@ -1,0 +1,160 @@
+#Aluno: Bruce da Cunha Cavalcanti Matta Junior
+#Festival de if e else, pior que funciona
+#Feito em Python
+
+print("Escolha qualquer veículo da lista -> Trator, bicicleta, moto, trem ")
+print("caminhão, ônibus, carro, asa delta, balão, avião, helicóptero ")
+print("submarino, barco, navio ou lancha. \n")
+print("O programa vai mostrar qual foi o veículo escolhido através de suas ")
+print("respostas para uma série de perguntas.") 
+print("Digite ''s'' para sim e ''n'' para não \n" )
+
+tipo = input("Seu veículo é terrestre? [s/n] ")
+
+if tipo.lower() == "s":
+    
+    tipo = input("Cabe apenas uma pessoa? [s/n] ")
+    
+    if tipo.lower() == "s":
+        
+        tipo = input("É pesado? [s/n] ")
+        
+        if tipo.lower() == "s":
+            print("Trator!")
+            
+        else:
+            tipo = input("Tem pedal? [s/n] ")
+            if tipo.lower() == "s":
+                print("Bicicleta!")
+            else:
+                print("Veículo não identificado...")
+        
+    else:
+        tipo = input("Usa capacete? [s/n] ")
+        
+        if tipo.lower() == "s":
+            print("Moto!")
+            
+        else:
+            tipo = input("Tem passageiro? [s/n] ")
+            
+            if tipo.lower() == "s":
+                
+                tipo = input("Usa trilho? [s/n] ")
+                
+                if tipo.lower() == "s":
+                    print("Trem!")
+                
+                else:
+                    tipo = input("Anda na pista? [s/n] ")
+                    
+                    if tipo.lower() == "s":
+                        
+                        tipo = input("É alto? [s/n] ")
+                        
+                        if tipo.lower() == "s":
+                            
+                            tipo = input("Usa carroceria? [s/n] ")
+                            
+                            if tipo.lower() == "s":
+                                print("Caminhão!")
+                            else:
+                                tipo = input("Pode ter cobrador? [s/n] ")
+                                if tipo.lower() == "s":
+                                    print("Ônibus!")
+                                else:
+                                    print("Veículo não identificado...")
+                            
+                        else:
+                            tipo = input("É veículo leve? [s/n] ")
+                            
+                            if tipo.lower() == "s":
+                                print("Carro!")
+                            else:
+                                print("Veículo não identificado...")
+                    else:
+                        print("Veículo não identificado...")
+    
+else:
+    tipo = input("Seu veículo é aéreo? [s/n] ")
+    if tipo.lower() == "s":
+        
+        tipo = input("Precisa pular? [s/n] ")
+        
+        if tipo.lower() == "s":
+            print("Asa delta!")
+        else:
+            
+            tipo = input("Viaja dentro? [s/n] ")
+            
+            if tipo.lower() == "s":
+                
+                tipo = input("É devagar? [s/n] ")
+                
+                if tipo.lower() == "s":
+                    print("Balão!")
+                else:
+                    
+                    tipo = input("Tem piloto? [s/n] ")
+                    
+                    if tipo.lower() == "s":
+                        
+                        tipo = input("Possui asas fixas? [s/n] ")
+                        
+                        if tipo.lower() == "s":
+                            print("Avião!")
+                        else:
+                            tipo = input("Faz vôo vertical? [s/n] ")
+                            
+                            if tipo.lower() == "s":
+                                print("Helicóptero!")
+                            else:
+                                print("Veículo não identificado...")
+            else:
+                print("Veículo não identificado...")
+            
+    else:
+        
+        tipo = input("Seu veículo é aquático? [s/n] ")
+        
+        if tipo.lower() == "s":
+            
+            tipo = input("É coberto d'água? [s/n] ")
+            
+            if tipo.lower() == "s":
+                print("Submarino!")
+            else:
+                
+                tipo = input("Navega na água? [s/n] ")
+                
+                if tipo.lower() == "s":
+                    
+                    tipo = input("Possui vela? [s/n] ")
+                    
+                    if tipo.lower() == "s":
+                        print("Barco!")
+                    else:
+                        
+                        tipo = input("Tem motor? [s/n] ")
+                        
+                        if tipo.lower() == "s":
+                            
+                            tipo = input("É alto? [s/n] ")
+                            
+                            if tipo.lower() == "s":
+                                print("Navio!")
+                            else:
+                                
+                                tipo = input("Pode ser descoberto? [s/n] ")
+                                
+                                if tipo.lower() == "s":
+                                    print("Lancha!")
+                                else:
+                                    print("Veículo não identificado...")
+                        else:
+                            print("Veículo não identificado...")
+                else:
+                    print("Veículo não identificado...")
+        
+        else:
+            print("Veículo não identificado...")
